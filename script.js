@@ -9,3 +9,9 @@ function mostraPalavrasChave(){
 
     campoResultado. textContent = palavras.join(", ")
 }
+
+function processaTexto(texto){
+let palavras = texto.split(/)
+
+return palavras;
+}
